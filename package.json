@@ -1,0 +1,24 @@
+{
+  "name": "raspi-wiringpi",
+  "version": "1.0.0",
+  "description": "Wrapper around Wiring Pi so it can be installed via NPM",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "sh install-wiringpi.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bryan-m-hughes/raspi-wiringpi.git"
+  },
+  "keywords": [
+    "raspberry pi",
+    "robotics",
+    "nodebots"
+  ],
+  "author": "Bryan Hughes <bryan@theoreticalideations.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryan-m-hughes/raspi-wiringpi/issues"
+  },
+  "homepage": "https://github.com/bryan-m-hughes/raspi-wiringpi"
+}
