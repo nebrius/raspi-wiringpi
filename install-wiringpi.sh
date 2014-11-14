@@ -31,6 +31,3 @@ cd wiringPi
 echo "\nBuilding Wiring Pi. You may be asked for your root password.\n"
 sudo ./build
 sudo rm -r $CLONE_DIR
-
-echo "\nBuilding raspi-core."
-node-gyp rebuild
