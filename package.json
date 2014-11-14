@@ -1,7 +1,7 @@
 {
   "name": "raspi-wiringpi",
-  "version": "1.0.0",
-  "description": "Wrapper around Wiring Pi so it can be installed via NPM",
+  "version": "1.0.1",
+  "description": "NPM wrapper around Wiring Pi so it can be easily installed via NPM or added as a package.json dependency",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install": "sh install-wiringpi.sh"
@@ -13,7 +13,8 @@
   "keywords": [
     "raspberry pi",
     "robotics",
-    "nodebots"
+    "nodebots",
+    "wiringpi"
   ],
   "author": "Bryan Hughes <bryan@theoreticalideations.com>",
   "license": "MIT",

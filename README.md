@@ -1,8 +1,7 @@
 Raspi Wiring Pi
 ===============
 
-Raspi Wiring Pi provides a wrapper around [Wiring Pi](http://wiringpi.com/) to make it easy to ensure it is installed
-for a Node.js package. Install with ```npm install raspi-wiringpi```.
+Raspi Wiring Pi provides a wrapper around [Wiring Pi](http://wiringpi.com/) to make it easy to install with NPM. Install with ```npm install raspi-wiringpi```.
 
 License
 =======
