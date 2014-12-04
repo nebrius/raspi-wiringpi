@@ -24,10 +24,18 @@
 CLONE_DIR=$(mktemp -d)
 cd $CLONE_DIR
 
-echo "\nDownloading Wiring Pi...\n"
-git clone git://git.drogon.net/wiringPi
-cd wiringPi
+if command -v gpio >/dev/null 2>&1
+then
+  echo "Wiring Pi is already installed, skipping\n"
+else
+  echo "Installing I2C tools"
+  sudo apt-get install -y libi2c-dev
 
-echo "\nBuilding Wiring Pi. You may be asked for your root password.\n"
-sudo ./build
-sudo rm -r $CLONE_DIR
+  echo "\nDownloading Wiring Pi...\n"
+  git clone git://git.drogon.net/wiringPi
+  cd wiringPi
+
+  echo "\nBuilding Wiring Pi. You may be asked for your root password.\n"
+  sudo ./build
+  sudo rm -r $CLONE_DIR
+fi
