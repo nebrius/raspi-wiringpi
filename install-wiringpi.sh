@@ -28,7 +28,7 @@ cd $CLONE_DIR
 if command -v gpio >/dev/null 2>&1
 then
   echo "Wiring Pi is already installed, skipping\n"
-  exit 1
+  exit 0
 fi
 
 # Check if git is installed or not
