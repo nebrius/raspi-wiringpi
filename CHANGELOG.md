@@ -1,3 +1,6 @@
+## 1.0.4 (2014-12-20)
+
+- Fixed an incorrect return code
 
 ## 1.0.3 (2014-12-8)
 

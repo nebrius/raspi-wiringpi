@@ -1,6 +1,6 @@
 {
   "name": "raspi-wiringpi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "NPM wrapper around Wiring Pi so it can be easily installed via NPM or added as a package.json dependency",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +17,13 @@
     "wiringpi"
   ],
   "author": "Bryan Hughes <bryan@theoreticalideations.com>",
+  "contributors": [{
+    "name": "Bryan Hughes",
+    "email": "bryan@theoreticalideations.com"
+  }, {
+    "name": "Jason Grout",
+    "url": "https://github.com/jasongrout"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bryan-m-hughes/raspi-wiringpi/issues"
