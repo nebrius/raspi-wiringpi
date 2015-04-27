@@ -1,3 +1,7 @@
+## 1.0.5 (2015-4-27)
+
+- Switched to GitHub mirror to get around problems when the official repo is down (why don't they host on GitHub)?
+
 ## 1.0.4 (2014-12-20)
 
 - Fixed an incorrect return code

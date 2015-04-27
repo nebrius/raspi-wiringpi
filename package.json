@@ -1,6 +1,6 @@
 {
   "name": "raspi-wiringpi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "NPM wrapper around Wiring Pi so it can be easily installed via NPM or added as a package.json dependency",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

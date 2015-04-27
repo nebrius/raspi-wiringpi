@@ -42,7 +42,7 @@ echo "Installing I2C tools"
 sudo apt-get install -y libi2c-dev || { echo "Could not install I2C libraries\n"; exit 1; }
 
 echo "\nDownloading Wiring Pi...\n"
-git clone git://git.drogon.net/wiringPi || { echo "Could not download Wiring Pi\n"; exit 1; }
+git clone https://github.com/bryan-m-hughes/wiringPi || { echo "Could not download Wiring Pi\n"; exit 1; }
 cd wiringPi
 
 echo "\nBuilding Wiring Pi. You may be asked for your root password.\n"
