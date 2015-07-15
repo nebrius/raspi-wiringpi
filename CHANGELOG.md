@@ -1,3 +1,7 @@
+## 1.0.6 (2015-7-14)
+
+- Updated repository links
+
 ## 1.0.5 (2015-4-27)
 
 - Switched to GitHub mirror to get around problems when the official repo is down (why don't they host on GitHub)?

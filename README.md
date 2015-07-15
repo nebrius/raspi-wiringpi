@@ -1,7 +1,11 @@
 Raspi Wiring Pi
 ===============
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nebrius/raspi-io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Raspi Wiring Pi provides a wrapper around [Wiring Pi](http://wiringpi.com/) to make it easy to install with NPM. Install with ```npm install raspi-wiringpi```.
+
+If you have a bug report, feature request, or wish to contribute code, please be sure to check out the Raspi-IO [Contributing Guide](https://github.com/nebrius/raspi-io/blob/master/CONTRIBUTING.md), which also applies to this project.
 
 License
 =======
