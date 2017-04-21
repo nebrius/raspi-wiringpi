@@ -1,7 +1,9 @@
 Raspi Wiring Pi
 ===============
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nebrius/raspi-io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nebrius/raspi-io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
+This package is no longer needed because wiringpi can now be installed via apt-get.
 
 Raspi Wiring Pi provides a wrapper around [Wiring Pi](http://wiringpi.com/) to make it easy to install with NPM. Install with ```npm install raspi-wiringpi```.
 
